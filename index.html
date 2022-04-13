@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypoojabox</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-top" id="top-header-bg">
+            <h3>use codeawesome20 for 20% off</h3>
+        </div>
+        <div class="main-header">
+            <div class="toggler">
+                <div class="login">
+                    <h4>Hi There!</h4>
+                    <p>
+                        <Span class="log-in">Log in</Span> Or <span class="register">Register</span></p>
+                </div>
+                <div class="icon-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-bar">
+                        ! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License -
+                        https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.
+                        <path
+                            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                    </svg>
+                    <h4 class="title" id="shop">
+                        Shop
+                    </h4>
+                </div>
+                <div class="img">
+                    <img src="./images/logo-optimized.svg" alt="" id="img-logo-hide">
+                    <img src="./images/nwlogo.svg" alt="" id="img-logo-scroll" style="display:none">
+                </div>
+                <div class="search-cart">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <h4 class="title">
+                            Search
+                        </h4>
+                    </div>
+                    <div class="cart">
+                        <i class="fa fa-cart-plus"></i>
+                        <h4 class="title"> Cart</h4>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="bottom-header">
+            <ul class="link-item">
+                <li class="link play-down">
+                    <a href="#"> shop</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="link play-down">
+                    <a href="#">home decor</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="link"><a href="#">festive decor</a></li>
+                <li class="link"><a href="#">corporate gifting</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="video-content">
+            <video width="100%" height="100%" preload="none" class="vid-opt" autoplay loop muted preload="">
+                <source src="./images/SAGE.mov" type="video/mp4">
+            </video>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M412.6 182c-10.28-8.334-25.41-6.867-33.75 3.402c-8.406 10.24-6.906 25.35 3.375 33.74C393.5 228.4 400 241.8 400 255.1c0 14.17-6.5 27.59-17.81 36.83c-10.28 8.396-11.78 23.5-3.375 33.74c4.719 5.806 11.62 8.802 18.56 8.802c5.344 0 10.75-1.779 15.19-5.399C435.1 311.5 448 284.6 448 255.1S435.1 200.4 412.6 182zM473.1 108.2c-10.22-8.334-25.34-6.898-33.78 3.34c-8.406 10.24-6.906 25.35 3.344 33.74C476.6 172.1 496 213.3 496 255.1s-19.44 82.1-53.31 110.7c-10.25 8.396-11.75 23.5-3.344 33.74c4.75 5.775 11.62 8.771 18.56 8.771c5.375 0 10.75-1.779 15.22-5.431C518.2 366.9 544 313 544 255.1S518.2 145 473.1 108.2zM534.4 33.4c-10.22-8.334-25.34-6.867-33.78 3.34c-8.406 10.24-6.906 25.35 3.344 33.74C559.9 116.3 592 183.9 592 255.1s-32.09 139.7-88.06 185.5c-10.25 8.396-11.75 23.5-3.344 33.74C505.3 481 512.2 484 519.2 484c5.375 0 10.75-1.779 15.22-5.431C601.5 423.6 640 342.5 640 255.1S601.5 88.34 534.4 33.4zM301.2 34.98c-11.5-5.181-25.01-3.076-34.43 5.29L131.8 160.1H48c-26.51 0-48 21.48-48 47.96v95.92c0 26.48 21.49 47.96 48 47.96h83.84l134.9 119.8C272.7 477 280.3 479.8 288 479.8c4.438 0 8.959-.9314 13.16-2.835C312.7 471.8 320 460.4 320 447.9V64.12C320 51.55 312.7 40.13 301.2 34.98z" />
+            </svg>
+        </div>
+
+        <div class="item-header">
+            <div class="item">
+                <img src="./images/1.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">aura cleansing</a>
+            </div>
+            <div class="item">
+                <img src="./images/2-p-500.jpeg" alt="" class="item-img">
+                <a href="#" class="item-title">lamps & lanterns</a>
+            </div>
+            <div class="item">
+                <img src="./images/3.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">god idols</a>
+            </div>
+            <div class="item">
+                <img src="./images/4.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">pooja decor</a>
+            </div>
+            <div class="item">
+                <img src="./images/5.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">sale</a>
+            </div>
+            <div class="item">
+                <img src="./images/6-p-500.jpeg" alt="" class="item-img">
+                <a href="#" class="item-title">limited</a>
+            </div>
+            <div class="item">
+                <img src="./images/7.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">crystals</a>
+            </div>
+            <div class="item">
+                <img src="./images/8.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">daily horoscope</a>
+            </div>
+            <div class="item">
+                <img src="./images/9.jpg" alt="" class="item-img">
+                <a href="#" class="item-title">urlis</a>
+            </div>
+        </div>
+
+        <div class="incense">
+            <div class="incense-header">
+                <h3 class="incense-title">
+                    incense
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="incense-body">
+                <div class="incense-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="incense-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="incense-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="incense-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="incense-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="incense-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="limited">
+            <div class="limited-header">
+                <h3 class="limited-title">
+                    limited <span>edition</span>
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="limited-body">
+                <div class="limited-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="limited-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="limited-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="limited-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="limited-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="limited-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="crystal">
+            <div class="crystal-header">
+                <h3 class="crystal-title">
+                    healing <span>crystal</span>
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="crystal-body">
+                <div class="crystal-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="crystal-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="crystal-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="crystal-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="crystal-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="crystal-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="himalayan">
+            <div class="himalayan-header">
+                <h3 class="himalayan-title">
+                    himalayan salt <span>lamps</span>
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="himalayan-body">
+                <div class="himalayan-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="himalayan-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="himalayan-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="himalayan-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="himalayan-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="himalayan-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="./images/desktop-banner.webp" alt="">
+        </div>
+
+        <div class="evil">
+            <div class="evil-header">
+                <h3 class="evil-title">
+                    evil <span>eye</span>
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="evil-body">
+                <div class="evil-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="evil-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="evil-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="evil-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="evil-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="evil-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="./images/Himalayan-desktop.webp" alt="">
+        </div>
+
+        <div class="navratri">
+            <div class="navratri-header">
+                <h3 class="navratri-title">
+                    navratri
+                </h3>
+                <p class="title-btn">view all</p>
+            </div>
+            <div class="navratri-body">
+                <div class="navratri-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span><i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="navratri-card">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><span></span> <i class="fa-solid fa-indian-rupee-sign"></i> 1,300</p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="navratri-card card-3">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="navratri-card card-4">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"> <i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="navratri-card card-5">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span> </p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="navratri-card card-6">
+                    <img src="./images/pexels-photo-1485657-p-1080.jpeg" alt="" class="card-img">
+                    <p class="card-desc">Lorem ipsum dolor...</p>
+                    <p class="card-price"><i class="fa-solid fa-indian-rupee-sign"></i><span> 1,300</span></p>
+                    <button class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery">
+            <div class="delivery-row">
+                <img src="./images/speed_delivery_ff095933-ff2c-4cbb-8f65-9483e67b07f6.png" alt="">
+                <div class="delivery-col">
+                    <h3 class="delivery-title">speedy delivery</h3>
+                    <p>We ensure express shipping & fast delivery.</p>
+                </div>
+            </div>
+            <div class="delivery-row">
+                <img src="./images/cod_298f0cde-1e98-467e-be48-7a5acffc61e9.png" alt="">
+                <div class="delivery-col">
+                    <h3 class="delivery-title">cash on delivery</h3>
+                    <p>We offer cash on delivery all over India.</p>
+                </div>
+            </div>
+            <div class="delivery-row">
+                <img src="./images/cod_298f0cde-1e98-467e-be48-7a5acffc61e9.webp" alt="">
+                <div class="delivery-col">
+                    <h3 class="delivery-title">easy returns</h3>
+                    <p>Hassle-free returns/exchange within 5 days of delivery. .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="./images/mknw_logo_white_180X100.webp" class="footer-logo" alt="">
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+            </div>
+            <div class="footer-col border">
+                <h3>CUSTOMER CARE</h3>
+                <p> Phone: +91 8010288882 | +91 8010188881</p>
+                <p> Email: orders@mypoojabox.com
+
+                    </a>
+            </div>
+            <div class="footer-col">
+                <h3>information
+                </h3>
+                <div class="infrm-row">
+                    <div class="infrm-col">
+                        <ul>
+                            <li>Track your Order</li>
+                            <li>Daily Horoscope</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="infrm-col">
+                        <ul>
+                            <li>Returns and Refunds</li>
+                            <li>Holiday List</li>
+                            <li>Aartis </li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>ABOUT MY POOJA</h3>
+                <div class="about-col">
+                    <ul>
+                        <li>Contact Us</li>
+                        <li> About Us</li>
+                        <li>Corliorate Enquiry</li>
+                        <li> Exchange/Cancel My Order </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-link">
+            <ul>
+                <li>
+                    TRACK YOUR ORDEr
+                </li>
+                <li> DAILY HOROSCOPE</li>
+                <li>CUSTOMER CARE</li>
+                <li> INFORMATION</li>
+                <li> ABOUT MY POOJA BOX</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="inner">
+                <div class="footer-left">
+                    <div class="left">
+                        <p>© 2021. All Rights Reserved.</p>
+                        <p>This web site is only Demo website for project given by Messold Technologie<a href="https://abcdecoder.github.io/portfolio.github.io/" target="_blank">Created by : Gaurav Verma(contact ME)</a> </p>
+                    </div>
+                    <div class="right">
+                        <select>
+                            <option value="IN">India</option>
+                            <option value="global">North America</option>
+                            <option value="global">Central America</option>
+                            <option value="global">South America</option>
+                            <option value="global">Africa</option>
+                            <option value="global">Asia</option>
+                            <option value="global">Europe</option>
+                            <option value="global">Oceania</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="left">
+                        <p>EXPERIENCE MY POOJA BOX APP ON MOBILE<span> :-</span></p>
+                    </div>
+                    <div class="right">
+                        <div class="download-box">
+                            <a href="https://play.google.com/store/apps/details?id=com.androidapp.mypoojabox" target="_blank"><img height="32" class=" lazyloaded" data-src="//cdn.shopify.com/s/files/1/2090/3151/t/193/assets/google_play_btn.png?v=7396081662837670692" alt="Google play" src="https://data.ibtimes.sg/en/full/12247/google-play-store-8-1-73-apk.png"></a>
+                            <a href="https://itunes.apple.com/in/app/mypoojabox/id1271217214?mt=8" target="_blank"><img height="32" class=" lazyloaded" data-src="//cdn.shopify.com/s/files/1/2090/3151/t/193/assets/ios_btn.png?v=2500216566077302367" alt="Apple Store" src="https://th.bing.com/th/id/R.5e5fe65cee522f1999f748e0f83d21c0?rik=ATu9B9N7qWb6eQ&riu=http%3a%2f%2fwww.tapsmart.com%2fwp-content%2fuploads%2f2014%2f03%2fApp-Store-Icon.png&ehk=jbbN2r8yGOACPIWDHQfJoSfvuTc5GFzGsI3CJocVDjA%3d&risl=&pid=ImgRaw&r=0"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.item-header').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+
+            $(window).scroll(() => {
+                if (window.scrollY > 30) {
+                    $("#top-header-bg").css("display", "none")
+                    $("#img-logo-hide").css("display", "none")
+                    $("#img-logo-scroll").css("display", "block")
+
+                } else if (window.scrollY < 1) {
+                    $("#top-header-bg").css("display", "block")
+                    $("#img-logo-scroll").css("display", "none")
+                    $("#img-logo-hide").css("display", "block")
+                }
+            })
+
+
+            // return () => $(window).off("scroll")
+
+
+        })
+    </script>
+</body>
+
+</html>
